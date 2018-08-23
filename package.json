@@ -1,0 +1,20 @@
+{
+  "name": "import_test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.0.0-rc.2",
+    "@babel/preset-env": "^7.0.0-rc.2",
+    "babel-loader": "^7.1.5",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  },
+  "scripts": {
+    "dev": "webpack --mode production && static dist -p 3002"
+  },
+  "devDependencies": {
+    "node-static": "^0.7.10"
+  }
+}
